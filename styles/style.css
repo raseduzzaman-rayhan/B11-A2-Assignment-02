@@ -28,4 +28,67 @@
     box-sizing: border-box;
 }
 
-/*  */
+/* Shared Styles */
+.display-flex {
+    display: flex;
+}
+
+.orange {
+    color: #FEA301;
+}
+
+.skyblue {
+    color: #01ACFD;
+}
+
+.paste {
+    color: #05D4DF;
+}
+
+.violet {
+    color: #5D58EF;
+}
+
+
+/* NavBar Styles */
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-name {
+    align-items: center;
+    gap: 10px;
+}
+
+.school-name {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.btn-contact {
+    background-color: #FEA301;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+}
+
+.navbar {
+    max-width: 1160px;
+    margin: 20px auto 0 auto;
+}
