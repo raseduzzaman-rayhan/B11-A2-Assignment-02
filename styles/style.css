@@ -237,16 +237,20 @@
 /* Stories Section Styles */
 
 .stories-section {
-    background-image: url(../assets/bg.png);
+    background-image: url(../assets/bg.png),
+    linear-gradient(0deg, 
+    rgba(254, 163, 1, 0.3),
+    rgba(255, 255, 255, 0.3) 
+    100%);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
     background-position: center;
-    margin: 100px auto 0 auto;
+    margin: 80px auto 0 auto;
 }
 
 .stories-container {
     max-width: 1160px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .stories-title {
@@ -262,16 +266,86 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-
+.big-box {
+    background-color: #FFFFFF;
+    width: 540px;
+    height: 610px;
+    border-radius: 0 0 16px 16px;
+}
 .big-box img{
     border-radius: 16px 16px 0 0;
 
 }
 
+.big-box button {
+    position: relative;
+    color: #FFFFFF;
+    width: 174.51px;
+    height: 47.93px;
+    border: none;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    left: 38px;
+    bottom: 25px;
+}
+
+.big-box h3 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    font-weight: 700;
+    left: 38px;
+}
+
+.big-box p {
+    color: rgb(102, 102, 102);
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    left: 38px;
+    width: 430px;
+    margin-top: 20px;
+}
+
+
 .small-boxes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    width: 600px;
+    height: 620px;
+}
+
+.small-box {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 291px;
+    height: 290px;
+}
+
+.small-box img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.small-box p {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    left: 30px;
+    width: 260px;
+}
+.small-box button {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 0.65rem;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 47.93px;
+    background-color: #95B226;
+    left: 38px;
+    bottom: 25px; 
 }
 /* Footer Section Style */
 
